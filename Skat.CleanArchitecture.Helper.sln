@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skat.CleanArchitecture.Helper.Abstractions", "src\Skat.CleanArchitecture.Helper.Abstractions\Skat.CleanArchitecture.Helper.Abstractions.csproj", "{EC517B5E-7DE9-40E2-908A-5AEB51F1E315}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skat.CleanArchitecture.Helper.Service", "src\Skat.CleanArchitecture.Helper.Implementation\Skat.CleanArchitecture.Helper.Service.csproj", "{3440407B-EDA8-4865-9CF0-4E271AAEC588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skat.CleanArchitectureHelper.Repository", "src\Skat.CleanArchitectureHelper.Repository\Skat.CleanArchitectureHelper.Repository.csproj", "{F832BEC9-3147-4E61-BA01-836BB3C70203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC517B5E-7DE9-40E2-908A-5AEB51F1E315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC517B5E-7DE9-40E2-908A-5AEB51F1E315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC517B5E-7DE9-40E2-908A-5AEB51F1E315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC517B5E-7DE9-40E2-908A-5AEB51F1E315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3440407B-EDA8-4865-9CF0-4E271AAEC588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3440407B-EDA8-4865-9CF0-4E271AAEC588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3440407B-EDA8-4865-9CF0-4E271AAEC588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3440407B-EDA8-4865-9CF0-4E271AAEC588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F832BEC9-3147-4E61-BA01-836BB3C70203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F832BEC9-3147-4E61-BA01-836BB3C70203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F832BEC9-3147-4E61-BA01-836BB3C70203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F832BEC9-3147-4E61-BA01-836BB3C70203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5EABDC7-1CBA-40CC-AA73-ECDC95E00A6E}
+	EndGlobalSection
+EndGlobal
